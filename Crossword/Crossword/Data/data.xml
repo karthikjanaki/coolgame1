@@ -1,0 +1,28 @@
+<crossword>
+	<puzzle n="1">
+	<item>
+		<x-pos>5</x-pos>
+		<y-pos>5</y-pos>
+		<direction>down</direction>
+		<number>1</number>
+		<word>love</word>
+		<clue>let ----- rule</clue>
+	</item>
+	<item>
+		<x-pos>4</x-pos>
+		<y-pos>5</y-pos>
+		<direction>across</direction>
+		<number>2</number>
+		<word>closed</word>
+		<clue>not opened</clue>
+	</item>
+	<item>
+		<x-pos>5</x-pos>
+		<y-pos>8</y-pos>
+		<direction>across</direction>
+		<number>3</number>
+		<word>eraser</word>
+		<clue>on the pencil tip</clue>
+	</item>
+	</puzzle>
+</crossword>

@@ -1,0 +1,10 @@
+C:\Users\sandy\Documents\Visual Studio 2013\Projects\Crossword\Crossword\bin\Debug\Crossword.exe.config
+C:\Users\sandy\Documents\Visual Studio 2013\Projects\Crossword\Crossword\bin\Debug\Crossword.exe
+C:\Users\sandy\Documents\Visual Studio 2013\Projects\Crossword\Crossword\bin\Debug\Crossword.pdb
+C:\Users\sandy\Documents\Visual Studio 2013\Projects\Crossword\Crossword\obj\Debug\CrosswordPuzzle.csprojResolveAssemblyReference.cache
+C:\Users\sandy\Documents\Visual Studio 2013\Projects\Crossword\Crossword\obj\Debug\Crossword.Form1.resources
+C:\Users\sandy\Documents\Visual Studio 2013\Projects\Crossword\Crossword\obj\Debug\Crossword.Clues.resources
+C:\Users\sandy\Documents\Visual Studio 2013\Projects\Crossword\Crossword\obj\Debug\Crossword.Properties.Resources.resources
+C:\Users\sandy\Documents\Visual Studio 2013\Projects\Crossword\Crossword\obj\Debug\CrosswordPuzzle.csproj.GenerateResource.Cache
+C:\Users\sandy\Documents\Visual Studio 2013\Projects\Crossword\Crossword\obj\Debug\Crossword.exe
+C:\Users\sandy\Documents\Visual Studio 2013\Projects\Crossword\Crossword\obj\Debug\Crossword.pdb
