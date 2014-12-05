@@ -8,13 +8,33 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Crossword
+namespace crossword
 {
-    public partial class Clues : Form
+    public partial class Form2 : Form
     {
-        public Clues()
+        public Form2()
         {
             InitializeComponent();
+        }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form1 f= new Form1("data.xml");     
+            f.Show();
+            //this.Hide();
+            //return "data.xml";
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form1 f = new Form1("data.xml");
+            f.Show();
+            //this.Hide();
         }
     }
 }

@@ -1,0 +1,85 @@
+<crossword>
+	<puzzle n="1">
+	<item>
+		<x-pos>5</x-pos>
+		<y-pos>10</y-pos>
+		<direction>across</direction>
+		<number>1</number>
+		<word>houston</word>
+		<clue>Love City!!</clue>
+	</item>
+	<item>
+		<x-pos>6</x-pos>
+		<y-pos>9</y-pos>
+		<direction>down</direction>
+		<number>2</number>
+		<word>boston</word>
+		<clue>not opened</clue>
+	</item>
+	<item>
+		<x-pos>6</x-pos>
+		<y-pos>14</y-pos>
+		<direction>across</direction>
+		<number>3</number>
+		<word>newyork</word>
+		<clue>on the pencil tip</clue>
+	</item>
+	<item>
+		<x-pos>10</x-pos>
+		<y-pos>5</y-pos>
+		<direction>across</direction>
+		<number>4</number>
+		<word>lasvegas</word>
+		<clue>on the pencil tip</clue>
+	</item>
+	<item>
+		<x-pos>11</x-pos>
+		<y-pos>5</y-pos>
+		<direction>down</direction>
+		<number>5</number>
+		<word>austin</word>
+		<clue>on the pencil tip</clue>
+	</item>
+
+	<item>
+		<x-pos>17</x-pos>
+		<y-pos>5</y-pos>
+		<direction>down</direction>
+		<number>6</number>
+		<word>seattle</word>
+		<clue>on the pencil tip</clue>
+	</item>
+	<item>
+		<x-pos>13</x-pos>
+		<y-pos>7</y-pos>
+		<direction>across</direction>
+		<number>7</number>
+		<word>chicago</word>
+		<clue>on the pencil tip</clue>
+	</item>
+	<item>
+		<x-pos>16</x-pos>
+		<y-pos>11</y-pos>
+		<direction>across</direction>
+		<number>8</number>
+		<word>detroit</word>
+		<clue>on the pencil tip</clue>
+	</item>
+	<item>
+		<x-pos>13</x-pos>
+		<y-pos>13</y-pos>
+		<direction>across</direction>
+		<number>9</number>
+		<word>losangles</word>
+		<clue>on the pencil tip</clue>
+	</item>
+	<item>
+		<x-pos>15</x-pos>
+		<y-pos>13</y-pos>
+		<direction>down</direction>
+		<number>10</number>
+		<word>sanjose</word>
+		<clue>on the pencil tip</clue>
+	</item>
+	</puzzle>
+</crossword>

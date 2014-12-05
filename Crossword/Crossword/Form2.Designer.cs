@@ -1,6 +1,6 @@
-﻿namespace Crossword
+﻿namespace crossword
 {
-    partial class Clues
+    partial class Form2
     {
         /// <summary>
         /// Required designer variable.
@@ -28,71 +28,63 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.clue_table = new System.Windows.Forms.DataGridView();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            ((System.ComponentModel.ISupportInitialize)(this.clue_table)).BeginInit();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // clue_table
+            // button1
             // 
-            this.clue_table.AllowUserToAddRows = false;
-            this.clue_table.AllowUserToDeleteRows = false;
-            this.clue_table.AllowUserToResizeColumns = false;
-            this.clue_table.AllowUserToResizeRows = false;
-            this.clue_table.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.clue_table.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Column1,
-            this.Column2,
-            this.Column3});
-            this.clue_table.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.clue_table.Location = new System.Drawing.Point(0, 0);
-            this.clue_table.Name = "clue_table";
-            this.clue_table.RowHeadersVisible = false;
-            this.clue_table.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.clue_table.Size = new System.Drawing.Size(384, 511);
-            this.clue_table.TabIndex = 0;
+            this.button1.Location = new System.Drawing.Point(59, 244);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "Level 1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // Column1
+            // button2
             // 
-            this.Column1.HeaderText = "#";
-            this.Column1.Name = "Column1";
-            this.Column1.Width = 50;
+            this.button2.Location = new System.Drawing.Point(211, 244);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 1;
+            this.button2.Text = "Level 2";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // Column2
+            // pictureBox1
             // 
-            this.Column2.HeaderText = "Direction";
-            this.Column2.Name = "Column2";
-            this.Column2.Width = 50;
+            this.pictureBox1.Image = global::crossword.Properties.Resources.pbtimes;
+            this.pictureBox1.Location = new System.Drawing.Point(58, 23);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(228, 188);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox1.TabIndex = 2;
+            this.pictureBox1.TabStop = false;
             // 
-            // Column3
-            // 
-            this.Column3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column3.HeaderText = "Clue";
-            this.Column3.Name = "Column3";
-            // 
-            // Clues
+            // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(384, 511);
-            this.Controls.Add(this.clue_table);
-            this.Name = "Clues";
+            this.ClientSize = new System.Drawing.Size(394, 358);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
+            this.Name = "Form2";
             this.ShowIcon = false;
-            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
-            this.Text = "Clues";
-            ((System.ComponentModel.ISupportInitialize)(this.clue_table)).EndInit();
+            this.Text = "Welcome! Go gaming!";
+            this.Load += new System.EventHandler(this.Form2_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        public System.Windows.Forms.DataGridView clue_table;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
-
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

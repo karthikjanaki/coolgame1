@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Crossword.Properties
+namespace crossword.Properties
 {
 
 
