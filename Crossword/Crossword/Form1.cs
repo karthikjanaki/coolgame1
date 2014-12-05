@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
 using System.Xml;
+using System.Media;
 
 namespace crossword
 {
@@ -19,12 +20,14 @@ namespace crossword
         String puzzle_file = null;
       //  public String puzzle_file = Application.StartupPath + "\\Puzzles\\data.xml";
         XmlDocument xmldoc = new XmlDocument();
+        private SoundPlayer splayer;
         public Form1(string path)
         {
             puzzle_file = null;
             puzzle_file = Application.StartupPath + "\\Puzzles\\" + path;
             buildwordlist();
             InitializeComponent();
+            splayer = new SoundPlayer(Application.StartupPath+ "\\Puzzles\\" + "sea.wav");
         }
         //public Form1()
         //{
@@ -190,6 +193,10 @@ namespace crossword
             buildwordlist();
             InitializeBoard();
 
+            //clue.duration = 6;
+            clue.timer.Enabled = true;
+            clue.timer.Start();
+            
         }
 
         private void board_CellPainting(object sender, DataGridViewCellPaintingEventArgs e)
@@ -204,6 +211,23 @@ namespace crossword
                 e.PaintContent(e.ClipBounds);
                 e.Handled = true;
             }
+        }
+
+        private void playSoundToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            
+            if(play_sound_checked.CheckState != CheckState.Checked)
+            {
+                play_sound_checked.CheckState = CheckState.Checked;
+                splayer.PlayLooping();
+            }
+            
+            else
+            {
+                play_sound_checked.CheckState = CheckState.Unchecked;
+                splayer.Stop();
+            }
+                
         }
 
     

@@ -10,3 +10,15 @@ c:\users\aarti\documents\visual studio 2013\Projects\crossword\crossword\obj\Deb
 C:\Users\Aarti\Documents\Visual Studio 2013\Projects\crossword\crossword\obj\Debug\crossword.clues.resources
 C:\Users\Aarti\Documents\Visual Studio 2013\Projects\crossword\crossword\bin\Debug\Puzzles\puzzle.txt
 C:\Users\Aarti\Documents\Visual Studio 2013\Projects\crossword\crossword\obj\Debug\crossword.Form2.resources
+C:\Users\sandy\Documents\Visual Studio 2013\Projects\coolgame1\Crossword\crossword\bin\Debug\crossword.exe.config
+C:\Users\sandy\Documents\Visual Studio 2013\Projects\coolgame1\Crossword\crossword\obj\Debug\crossword.exe
+C:\Users\sandy\Documents\Visual Studio 2013\Projects\coolgame1\Crossword\crossword\obj\Debug\crossword.pdb
+C:\Users\sandy\Documents\Visual Studio 2013\Projects\coolgame1\Crossword\crossword\bin\Debug\Puzzles\puzzle.txt
+C:\Users\sandy\Documents\Visual Studio 2013\Projects\coolgame1\Crossword\crossword\bin\Debug\crossword.exe
+C:\Users\sandy\Documents\Visual Studio 2013\Projects\coolgame1\Crossword\crossword\bin\Debug\crossword.pdb
+C:\Users\sandy\Documents\Visual Studio 2013\Projects\coolgame1\Crossword\crossword\obj\Debug\crossword.csprojResolveAssemblyReference.cache
+C:\Users\sandy\Documents\Visual Studio 2013\Projects\coolgame1\Crossword\crossword\obj\Debug\crossword.clues.resources
+C:\Users\sandy\Documents\Visual Studio 2013\Projects\coolgame1\Crossword\crossword\obj\Debug\crossword.Form1.resources
+C:\Users\sandy\Documents\Visual Studio 2013\Projects\coolgame1\Crossword\crossword\obj\Debug\crossword.Form2.resources
+C:\Users\sandy\Documents\Visual Studio 2013\Projects\coolgame1\Crossword\crossword\obj\Debug\crossword.Properties.Resources.resources
+C:\Users\sandy\Documents\Visual Studio 2013\Projects\coolgame1\Crossword\crossword\obj\Debug\crossword.csproj.GenerateResource.Cache
