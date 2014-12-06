@@ -193,9 +193,7 @@ namespace crossword
             buildwordlist();
             InitializeBoard();
 
-            //clue.duration = 6;
-            clue.timer.Enabled = true;
-            clue.timer.Start();
+
             
         }
 
